@@ -1,0 +1,10 @@
+platform :ios, '8.1'
+
+use_frameworks!
+
+pod 'ChameleonFramework/Swift'
+pod 'Alamofire', '~> 3.3'
+
+target 'BeaconsTest' do
+pod 'SwiftyJSON', :git => 'https://github.com/SwiftyJSON/SwiftyJSON.git'
+end
